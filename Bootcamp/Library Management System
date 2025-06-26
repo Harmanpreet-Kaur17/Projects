@@ -1,0 +1,31 @@
+class library:
+    def _init_(self,book,author,page):
+        self.book=book
+        self.author=author
+        self.page=page
+    def get_book(self):
+        return self.book
+    def get_author(self):
+        return self.author
+    def get_pages(self):
+        return self.page
+book1=library("ABC","Harman",45)
+print("Book Name is :",book1.get_book(),", Author of book is :",book1.get_author(),", Number of pages in book : ",book1.get_pages())
+book2=library("123","Harman",47)
+print("Book Name is :",book2.get_book(),", Author of book is :",book2.get_author(),", Number of pages in book : ",book2.get_pages())
+book3=library("Dsa in c++","Harman",452)
+print("Book Name is :",book3.get_book(),", Author of book is :",book3.get_author(),", Number of pages in book : ",book3.get_pages())
+book4=library("Java","Nisha",645)
+print("Book Name is :",book4.get_book(),", Author of book is :",book4.get_author(),", Number of pages in book : ",book4.get_pages())
+book5=library("Python","Harman",845)
+print("Book Name is :",book5.get_book(),", Author of book is :",book5.get_author(),", Number of pages in book : ",book5.get_pages())
+book6=library("Design Thinki5g","Harman",455)
+print("Book Name is :",book6.get_book(),", Author of book is :",book6.get_author(),", Number of pages in book : ",book6.get_pages())
+book7=library("DSA in Python","Harman",655)
+print("Book Name is :",book7.get_book(),", Author of book is :",book7.get_author(),", Number of pages in book : ",book7.get_pages())
+book8=library("Rymes","Harman",50)
+print("Book Name is :",book8.get_book(),", Author of book is :",book8.get_author(),", Number of pages in book : ",book8.get_pages())
+book9=library("Math","Harman",505)
+print("Book Name is :",book9.get_book(),", Author of book is :",book9.get_author(),", Number of pages in book : ",book9.get_pages())
+book10=library("English","Jashan",155)
+print("Book Name is :",book10.get_book(),", Author of book is :",book10.get_author(),", Number of pages in book : ",book10.get_pages())
