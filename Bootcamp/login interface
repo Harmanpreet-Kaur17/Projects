@@ -1,0 +1,12 @@
+id=("Jashan","Guntaj","Harman","Sukhman","Arman","Navjot")
+Password=("1234","4567","7891","1011","1112","1213")
+username=input("Enter your Username : ")
+Pass=input("Enter Password : ")
+Login = False
+for i in range(0,6):
+    if username==id[i] and Pass == Password[i] :
+        Login= True
+if Login:
+    print("Login succesfully")
+else:
+    print("Login Failed")
